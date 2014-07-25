@@ -1,0 +1,14 @@
+name = Mountbatten Spam Protection
+description = Contains Botcha and moopapi configurations for spam protection
+core = 7.x
+package = Mountbattten
+dependencies[] = botcha
+dependencies[] = ctools
+dependencies[] = moopapi
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = botcha_enabled_contact_site_form
+features[variable][] = botcha_enabled_user_pass
+features[variable][] = botcha_enabled_user_register_form
+features[variable][] = botcha_secret

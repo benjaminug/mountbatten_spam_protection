@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Mountbatten Spam Protection feature.
+ */
+
+include_once 'mountbatten_spam_protection.features.inc';
