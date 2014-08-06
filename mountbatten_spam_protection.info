@@ -1,7 +1,7 @@
 name = Mountbatten Spam Protection
 description = Contains Botcha and moopapi configurations for spam protection
 core = 7.x
-package = Mountbattten
+package = Mountbatten
 dependencies[] = botcha
 dependencies[] = ctools
 dependencies[] = moopapi
